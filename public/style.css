@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 12pt;
+}
+
+body {
+  background: rgb(60 64 67);
+  color: #EEE;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 20pt;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+header,
+form {
+  font-size: 12pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  /* margin: 1rem 0; */
+  /* width: 500px; */
+}
+
+#form {
+  margin: 0 auto;
+  width: 50%;
+  /* color: red; */
+  display: block;
+  /* justify-content: right; */
+  align-items: center;
+}
+
+label {
+  font-size: 14pt;
+  /* background: #EEE; */
+  /* color: rgba(0, 0, 0, 0.7); */
+  width: 100%;
+}
+
+.input {
+  background-color: rgba(255, 255, 255, 0.8);
+  min-height: 2.5rem;
+  padding: 4.7pt;
+  /* margin-bottom: 2rem; */
+  display: block;
+  min-width: 45%;
+}
+
+input,
+textarea {
+  width: 95%;
+  border: none;
+  outline: none;
+  background: none;
+  vertical-align: middle;
+}
+
+button {
+  width: 100%;
+}
+
+.button {
+  background-color: #41666c;
+  padding: 7px 0px;
+  cursor: pointer;
+  text-align: right;
+  border: none;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  margin: 2% 0 2% 0;
+  padding-top: 1.5%;
+  margin-left: 0;
+}
+
+.submit:hover {
+  filter: brightness(1.2);
+}
+
+.inputText {
+  font-size: 18pt;
+  color: rgba(0, 0, 0, 0.7);
+  /* background: 1px solid rgba(0, 0, 0, 0.7); */
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.7);
+  padding: 3%;
+}
+
+.btn {
+  background-color: rgba(65, 102, 108, 0.5);
+  padding: 7px 0px;
+  cursor: pointer;
+  text-align: right;
+  border: none;
+  display: inline-flex;
+  justify-content: center;
+  vertical-align: middle;
+  margin: 2% 0 2% 0;
+  padding-top: 1.5%;
+  text-decoration: none;
+  width: 49.3%;
+}
+
+.delete {
+  color: red;
+}
+
+.edit {
+  color: green;
+}
+
+.btnAdd{
+  display: none;
+}
+
+.btnUpdate{
+  display: none;
+}
+
+@media screen and (max-width:620px) {
+  form {
+    /* display: block; */
+    margin: 0 5%;
+    min-width: 10rem;
+  }
+
+  .btn {
+    background-color: rgba(65, 102, 108, 0.5);
+    padding: 7px 0px;
+    cursor: pointer;
+    text-align: right;
+    border: none;
+    display: inline-flex;
+    justify-content: center;
+    vertical-align: middle;
+    margin: 2% 0 2% 0;
+    padding-top: 1.5%;
+    text-decoration: none;
+    width: 100%;
+  }
+}
